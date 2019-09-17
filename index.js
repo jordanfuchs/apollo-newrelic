@@ -1,5 +1,5 @@
 const { GraphQLExtension } = require('graphql-extensions');
-const { newrelic } = require('newrelic');
+const newrelic = require('newrelic');
 
 class NewRelicExtension extends GraphQLExtension {
   requestDidStart({ queryString, operationName, variables }) {
