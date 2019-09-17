@@ -1,0 +1,11 @@
+{
+  "name": "apollo-newrelic-extension",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jordan Fuchs",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-extensions": "^0.10.3",
+    "newrelic": "^5.11.0"
+  }
+}
